@@ -1,0 +1,182 @@
+//
+// Main
+//
+
+// Body
+body {
+	background-color: var(--kt-page-bg);
+}
+
+// Font color from Content background color
+.text-page-bg {
+	color: $page-bg;
+}
+
+// Desktop Mode
+@include media-breakpoint-up(lg) {
+	// Containers
+	.container,
+	.container-xxl,
+	.container-fluid {
+		padding: 0 get($content-spacing-x, desktop) !important;
+	}
+
+	// Wrapper
+	.wrapper {
+		padding-left: get($aside-config, width) + get($content-spacing-x, desktop);
+		padding-top: get($header-config, height, desktop) + get($content-spacing-y, desktop);
+		
+		// почему-то не подтягиваются стили .header-fixed, & - не распознается как родитель
+
+		// Fixed header mode
+		// .header-fixed & {
+		// 	padding-top: get($header-config, height, desktop) + get($content-spacing-y, desktop);
+		// }
+	}
+}
+
+@include media-breakpoint-down(sm) {
+	.transaction-filter-modal {
+		top: 16%;
+	}
+	.toolbar {
+		align-items: unset !important;
+		flex-direction: column;
+	}
+	.menu {
+		right: unset !important;
+	}
+
+	.menu-header {
+		right: 0 !important;
+	}
+
+	.user-cards .card .card-header {
+		flex-direction: column;
+		margin-top: 20px;
+	}
+	.user-cards .card .card-header-card {
+		flex-direction: unset;
+		margin-top: 0px;
+	}
+	.page-title {
+		margin-bottom: 20px;
+	}
+	.actions-group-buttons, .card .card-header .card-toolbar {
+		justify-content: space-between;
+	}
+
+	.card .card-header .card-toolbar-card {
+		display: flex;
+		will-change: transform;
+		-webkit-animation: menu-sub-dropdown-animation-fade-in 0.3s ease 1, menu-sub-dropdown-animation-move-up 0.3s ease 1;
+		animation: menu-sub-dropdown-animation-fade-in 0.3s ease 1, menu-sub-dropdown-animation-move-up 0.3s ease 1;
+		border-radius: 0.475rem;
+		box-shadow: var(--kt-menu-dropdown-box-shadow);
+		position: absolute;
+		top: -5px;
+		right: 0;
+		justify-content: unset;
+		flex-direction: column !important;
+		padding: 20px;
+		background-color: var(--kt-menu-dropdown-bg-color);
+		z-index: 999;
+	}
+
+	//.card-toolbar-card-desktop {
+	//	display: none !important;
+	//}
+	
+	.card .card-header .card-toolbar-card button {
+		width: 100%;
+		margin-bottom: 10px;
+		margin-right: unset;
+	}
+
+	.card .card-header .card-toolbar-card .btn-card-delete {
+		order: 2;
+		margin-bottom: 0;
+	}
+
+	.card .card-header .card-toolbar-card .btn-card-create {
+		order: 0;
+	}
+	.card .card-header .card-toolbar-card .btn-card-change {
+		order: 1;
+	}
+
+	.open-actions-card-btn {
+		display: block !important;
+	}
+
+	.card .card-header .card-toolbar {
+		flex-direction: row-reverse;
+	}
+
+	.actions-group-buttons .user-filter-span {
+		display: none;
+	}
+
+	.loginForm {
+		width: 100%;
+	}
+
+	.loginForm .card {
+		width: 100%;
+		margin-left: 0 !important;
+	}
+
+	.user-profile-menu {
+		transform: translate(-19px, 61px) !important;
+	}
+
+	.edit-card-name-block {
+		flex-direction: column;
+	}
+
+	.edit-card-group {
+		flex-direction: column;
+		align-items: unset !important;
+	}
+
+	.edit-card-name-input, .edit-card-select-action {
+		margin-bottom: 15px;
+	}
+
+	.edit-card-actions {
+		flex-direction: column;
+	}
+
+	.edit-card-group-actions {
+		margin-left: 16px !important;
+	}
+
+	.edit-card-limit-status {
+		width: 100% !important;
+		margin-left: 0 !important;
+	}
+
+	.modal {
+		overflow: hidden !important;
+	}
+}
+
+// Tablet & mobile modes
+@include media-breakpoint-down(lg) {
+	// Containers
+	.container,
+	.container-xxl,
+	.container-fluid {
+		max-width: none;
+		padding: 0 get($content-spacing-x, tablet-and-mobile) !important;
+	}
+
+	// Wrapper
+	.wrapper {
+
+		// Fixed header mode
+		.header-tablet-and-mobile-fixed & {
+			padding-top: get($header-config, height, tablet-and-mobile) + get($content-spacing-y, tablet-and-mobile);
+		}
+	}
+}

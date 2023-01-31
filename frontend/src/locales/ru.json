@@ -1,0 +1,210 @@
+{
+  "sessions": {
+    "title": "Управление сессиями",
+    "filterSession": "Фильтр сессий",
+    "statusSession": "Статус сессий",
+    "userSearch": "Поиск пользователя",
+    "deleteAll": "Удалить все сессии",
+    "tableTitle": "Сессии",
+    "amount": "Количество сессий",
+    "connection": "Время подключения",
+    "noActive": "Не активен",
+    "active": "Активен",
+    "activeAdmin": "Активен с админа",
+    "expired": "Expired",
+    "loginAdmin": "Вход с админки",
+    "completion": "Время завершения",
+    "disabledSession": "Сессия неактивна",
+    "completeSession": "Завершить сессию"
+  },
+  "cards": {
+    "title": "Управление картами",
+    "create": "Создать карту",
+    "alert": "В настоящий момент выпуск карт осуществляется через менеджера",
+    "filterCards": "Фильтр карт",
+    "statusCard": "Статус карты",
+    "cardSearch": "Поиск карты",
+    "tableTitle": "Карты",
+    "amount": "Количество карт",
+    "card": "Карта",
+    "limit": "Лимит",
+    "spend": "Спенд",
+    "balance": "Баланс",
+    "release": "Дата выпуска",
+    "closing": "Дата закрытия",
+    "active": "Активная",
+    "blocked": "Заблокированна",
+    "delete": "Удалить",
+    "date": "Дата",
+    "universal": "Универсальная",
+    "advertising": "Рекламная",
+    "unloading": "Выгрузка",
+    "accounts": "Счета",
+    "accountBalance": "Баланс аккаунта",
+    "topUp": "Пополнить"
+  },
+  "tasks": {
+    "title": "Управление задачами",
+    "create": "Создать задачу",
+    "alert": "At the moment, cards are issued through the manager",
+    "filterTasks": "Фильтр задач",
+    "statusTask": "Статус задач",
+    "typeTask": "Тип задач",
+    "taskSearch": "Поиск задачи",
+    "tableTitle": "Задачи",
+    "amount": "Количество задач",
+    "allTasks": "Все задачи",
+    "task": "Задача",
+    "balance": "Баланс",
+    "release": "Дата создания",
+    "closing": "Дата закрытия",
+    "active": "Активная",
+    "completed": "Завершенная",
+    "delete": "Delete",
+    "date": "Дата",
+    "universal": "Универсальная",
+    "advertising": "Рекламная",
+    "facebook": "Facebook",
+    "unloading": "Unloading",
+    "accounts": "Accounts",
+    "accountBalance": "Account balance",
+    "cardCreation": "Создание карты",
+    "cardReplenishment": "Пополнение карты",
+    "accountReplenishment": "Пополнение баланса",
+    "alertCancel": "Вы уверены что хотите отменить задачу?",
+    "alertRepeat": "Вы уверены что хотите повторить задачу?",
+    "successCancel": "Вы успешно отменили задачу!",
+    "successRepeat": "Вы успешно повторили задачу!"
+  },
+  "transactions": {
+    "title": "Управление транзакциями",
+    "filterTransactions": "Фильтр транзакций",
+    "transactionSearch": "Поиск транзакции",
+    "tableTitle": "Транзакции",
+    "amount": "Количество транзакций",
+    "date": "Дата",
+    "movement": "Движение транзакции"
+  },
+  "start": {
+    "message1": "Основная информация"
+  },
+  "about": {
+    "message1": "О нас"
+  },
+  "header": {
+    "Home": "Основная страница",
+    "About": "О нас",
+    "Profile": "Мой профиль",
+    "logout": "Выйти",
+    "settings": "Настройки аккаунта"
+  },
+  "menu": {
+    "account": "Мои счета",
+    "balances": "Балансы",
+    "sessions": "Сессии",
+    "cardList": "Список карт",
+    "transactions": "Транзакции",
+    "tasks": "Задачи"
+  },
+  "profile": {
+    "accountOverview": "Обзор учетной записи",
+    "account": "Аккаунт",
+    "overview": "Обзор",
+    "details": "Детали профиля",
+    "timezone": "Часовой пояс",
+    "contactDetails": "Контактные данные",
+    "changeEmail": "Для смены почты свяжитесь с менеджером",
+    "changePasswordSuccess": "Вы успешно изменили пароль!",
+    "saveChanges": "Сохранить изменения",
+    "resetPassword": "Сбросить пароль",
+    "oldPassword": "Старый пароль",
+    "newPassword": "Новый пароль",
+    "checkPassword": "Введенный пароль совпадает с вашим старым!",
+    "lengthPassword": "Введенный пароль слишком короткий!",
+    "email": "{{user.email}}"
+  },
+  "forgot": {
+    "main": "Забыли пароль?",
+    "resetPassword": "Восстановить пароль",
+    "success": "На вашу почту отправлено письмо, перейдите по ссылке из письма для сброса пароля",
+    "errors": {
+      "userNotExist": "Пользователь с данной электронной почтой не найден в системе."
+    }
+  },
+  "resetPassword": {
+    "errors": {
+      "UnauthorizedToken": "Ваш токен недействителен!"
+    },
+    "success": "Ваш пароль был успешно изменен!",
+    "enterEmail": "Введите ваш электронный адрес, чтобы сбросить пароль."
+  },
+  "signIn": {
+    "main": "Войти",
+    "errors": {
+      "Error: badRequest": "Что-то пошло не так, повторите попытку позже.",
+      "Error: userNotFound": "Пользователь с данной электронной почтой не найден в системе.",
+      "Error: registrationNotCompleted": "Данный пользователь не завершил регистрацию. Проверьте электронную почту на наличие дальнейших указаний.",
+      "Error: incorrectPassword": "Неправильный пароль.",
+      "Error: captchaIsInvalid": "Капча недействительна."
+    }
+  },
+  "signUp": {
+    "main": "Зарегистрироваться",
+    "retypePassword": "Повторите пароль",
+    "alreadyRegistered": "Уже зарегистрированы?",
+    "noReadyRegistered": "Не зарегистрированы?",
+    "messenger": "Мессенджер для связи",
+    "messengerNickname": "Ваш никнейм",
+    "country": "Страна",
+    "successfulSignUp": "Отлично! На вашу почту отправлено письмо, перейдите по ссылке из письма для продолжения регистрации.",
+    "errors": {
+      "formNotValid": "Пожалуйста, выберите свою страну и мессенджер для связи с вами.",
+      "password": "Введенные пароли не совпадают.",
+      "Error: badRequest": "Что-то пошло не так, повторите попытку позже.",
+      "Error: emailAlreadyRegistered": "Данный адрес электронной почты уже зарегистрирован в нашей системе.",
+      "Error: captchaIsInvalid": "Капча недействительна."
+    }
+  },
+  "commonErrors": {
+    "alreadyRegistered": "Вы уже зарегистрированы!",
+    "alreadySignedIn": "Вы уже авторизованы!",
+    "notSignedIn": "Вы не авторизованы!"
+  },
+  "common": {
+    "details": "Детали",
+    "link": "Ссылка",
+    "location": "Локация",
+    "status": "Статус",
+    "actions": "Действия",
+    "reset": "Сброс",
+    "search": "Искать",
+    "filter": "Фильтр",
+    "crumb1": "Главная",
+    "emailAddress": "Электронная почта",
+    "password": "Пароль",
+    "fullName": "Полное имя",
+    "submit": "Отправить",
+    "cancel": "Отменить",
+    "pages": "СТРАНИЦЫ",
+    "settings": "Настройки",
+    "timeZone": "Часовой пояс",
+    "copyNick": "Ник менеджера скопирован в буфер обмена",
+    "discard": "Отказаться",
+    "save": "Сохранить"
+  },
+  "verifyEmail": {
+    "success": "Почта успешно подтверждена! Мы свяжемся с вами в течении пары рабочих дней для завершения регистрации.",
+    "emailAlreadyVerified": "Эта почта уже подтверждена!"
+  },
+  "rates": {
+    "cost": "Комиссия за пополнение счета",
+    "commission": "Комиссия за транзакцию",
+    "commissionFunds": "Комиссия за вывод",
+    "amountCards": "Количество карт",
+    "issue": "Стоимость выпуска карты",
+    "notLimited": "Не лимитировано",
+    "fbDescription": "Долларовая карта для оплаты рекламы в",
+    "advDescription": "Долларовая карта для оплаты рекламных кабинетов",
+    "uniDescription": "Долларовая карта, которую Вы можете использовать её для любых операций"
+  }
+}

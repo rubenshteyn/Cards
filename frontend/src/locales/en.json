@@ -1,0 +1,212 @@
+{
+  "sessions": {
+    "title": "Session management",
+    "crumb2": "Session management",
+    "filterSession": "Filter sessions",
+    "statusSession": "Status session",
+    "userSearch": "User search",
+    "deleteAll": "Delete all sessions",
+    "tableTitle": "Sessions",
+    "amount": "Amount sessions",
+    "connection": "Connection time",
+    "noActive": "Not active",
+    "active": "Active",
+    "activeAdmin": "Active from admin",
+    "expired": "Expired",
+    "loginAdmin": "Login from admin",
+    "completion": "Completion time",
+    "disabledSession": "Session is not active",
+    "completeSession": "Complete session"
+  },
+  "cards": {
+    "title": "Cards management",
+    "create": "Create card",
+    "alert": "At the moment, cards are issued through the manager",
+    "filterCards": "Card filter",
+    "statusCard": "Status card",
+    "cardSearch": "Card search",
+    "tableTitle": "Cards",
+    "amount": "Amount cards",
+    "card": "Card",
+    "limit": "Limit",
+    "spend": "Spend",
+    "balance": "Balance",
+    "release": "Release date",
+    "closing": "Closing date",
+    "active": "Active",
+    "blocked": "Blocked",
+    "delete": "Delete",
+    "date": "Date",
+    "universal": "Universal",
+    "advertising": "Advertising",
+    "unloading": "Unloading",
+    "accounts": "Accounts",
+    "accountBalance": "Account balance",
+    "topUp": "Top up"
+  },
+  "tasks": {
+    "title": "Tasks management",
+    "create": "Create tasks",
+    "alert": "At the moment, cards are issued through the manager",
+    "filterTasks": "Task filter",
+    "statusTask": "Status task",
+    "typeTask": "Type task`",
+    "taskSearch": "Task search",
+    "tableTitle": "Tasks",
+    "amount": "Amount tasks",
+    "allTasks": "All tasks",
+    "task": "Task",
+    "balance": "Balance",
+    "release": "Release date",
+    "closing": "Closing date",
+    "active": "Active",
+    "completed": "Completed",
+    "delete": "Delete",
+    "date": "Date",
+    "universal": "Universal",
+    "advertising": "Advertising",
+    "facebook": "Facebook",
+    "unloading": "Unloading",
+    "accounts": "Accounts",
+    "accountBalance": "Account balance",
+    "cardCreation": "Card creation",
+    "cardReplenishment": "Card replenishment",
+    "accountReplenishment": "Account replenishment",
+    "alertCancel": "Are you sure you want to cancel the task?",
+    "alertRepeat": "Are you sure you want to repeat the task?",
+    "successCancel": "You have successfully canceled the task!",
+    "successRepeat": "You have successfully repeated the task!"
+
+  },
+  "transactions": {
+    "title": "Transactions management",
+    "filterTransactions": "Filter transactions",
+    "transactionSearch": "Transaction search",
+    "tableTitle": "Transactions",
+    "amount": "Amount transactions",
+    "date": "Date",
+    "movement": "Transaction movement"
+  },
+  "start": {
+    "message1": "Main Info"
+  },
+  "about": {
+    "message1": "About Us"
+  },
+  "header": {
+    "Home": "Home",
+    "About": "About",
+    "Profile": "My Profile",
+    "logout": "Logout",
+    "settings": "Account settings"
+  },
+  "menu": {
+    "account": "My accounts",
+    "balances": "Balances",
+    "sessions": "Sessions",
+    "cardList": "Cards List",
+    "transactions": "Transactions",
+    "tasks": "Tasks"
+  },
+  "profile": {
+    "accountOverview": "Account Overview",
+    "account": "Account",
+    "overview": "Overview",
+    "details": "Profile Details",
+    "timezone": "Time Zone",
+    "contactDetails": "Contact details",
+    "changeEmail": "To change mail, contact the manager",
+    "changePasswordSuccess": "You have successfully changed your password!",
+    "saveChanges": "Save changes",
+    "resetPassword": "Reset password",
+    "oldPassword": "Old password",
+    "newPassword": "New password",
+    "checkPassword": "The entered password is the same as your old one!",
+    "lengthPassword": "The entered password is too short!",
+    "email": "{{user.email}}"
+  },
+  "forgot": {
+    "main": "Forgot Password?",
+    "resetPassword": "Reset password",
+    "success": "A message has been sent to your email. Follow the link in the message to reset your password.",
+    "errors": {
+      "userNotExist": "User with this email address is not found."
+    }
+  },
+  "resetPassword": {
+    "errors": {
+      "UnauthorizedToken": "Your token is not valid!"
+    },
+    "success": "Your password has been changed!",
+    "enterEmail": "Enter your email to reset your password."
+  },
+  "signIn": {
+    "main": "Sign In",
+    "errors": {
+      "Error: badRequest": "Something went wrong. Try again later.",
+      "Error: userNotFound": "User with this email address is not found.",
+      "Error: registrationNotCompleted": "This user is not completely registered. Check your email for any further instructions.",
+      "Error: incorrectPassword": "Incorrect password.",
+      "Error: captchaIsInvalid": "Captcha is invalid."
+    }
+  },
+  "signUp": {
+    "main": "Sign Up",
+    "retypePassword": "Retype password",
+    "messenger": "Messenger",
+    "messengerNickname": "Your nickname",
+    "country": "Country",
+    "alreadyRegistered": "Already registered?",
+    "noReadyRegistered": "Not a Member yet?",
+    "successfulSignUp": "Excellent! A message has been sent to your email. Follow the link in the message to continue registration.",
+    "errors": {
+      "formNotValid": "Please select your country and your messenger.",
+      "password": "The entered passwords do not match.",
+      "Error: badRequest": "Something went wrong. Try again later.",
+      "Error: emailAlreadyRegistered": "This email already exists in our system.",
+      "Error: captchaIsInvalid": "Captcha is invalid."
+    }
+  },
+  "commonErrors": {
+    "alreadyRegistered": "You are already registered!",
+    "alreadySignedIn": "You are already signed in!",
+    "notSignedIn": "You are not signed in!"
+  },
+  "common": {
+    "details": "Details",
+    "link": "Link",
+    "location": "Location",
+    "status": "Status",
+    "actions": "Actions",
+    "reset": "Reset",
+    "search": "Search",
+    "filter": "Filter",
+    "crumb1": "Home",
+    "emailAddress": "Email address",
+    "password": "Password",
+    "fullName": "Full Name",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "pages": "PAGES",
+    "settings": "Settings",
+    "timeZone": "Time zone",
+    "copyNick": "Manager nickname copied to clipboard",
+    "discard": "Discard",
+    "save": "Save"
+  },
+  "verifyEmail": {
+    "success": "Email is verified! We will contact you in a few days to end your registration.",
+    "emailAlreadyVerified": "Email is already verified!"
+  },
+  "rates": {
+    "cost": "Commission for replenishment of the account",
+    "commission": "Transaction commission",
+    "commissionFunds": "Withdrawal fee",
+    "amountCards": "Amount cards",
+    "issue": "Card issue cost",
+    "notLimited": "Not limited",
+    "fbDescription": "Dollar card to pay for advertising in",
+    "advDescription": "Dollar card to pay for advertising cabinets",
+    "uniDescription": "A dollar card that you can use for any transactions"
+  }
+}

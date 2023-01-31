@@ -1,0 +1,87 @@
+//
+// Main
+//
+
+// Body
+body {
+	background-color: var(--kt-page-bg);
+}
+
+// Font color from Content background color
+.text-page-bg {
+	color: $page-bg;
+}
+
+// Desktop Mode
+@include media-breakpoint-up(lg) {
+	// Containers
+	.container,
+	.container-xxl,
+	.container-fluid {
+		padding: 0 get($content-spacing-x, desktop) !important;
+	}
+
+	// Wrapper
+	.wrapper {
+		padding-left: get($aside-config, width) + get($content-spacing-x, desktop);
+		padding-top: get($header-config, height, desktop) + get($content-spacing-y, desktop);
+		
+		// почему-то не подтягиваются стили .header-fixed, & - не распознается как родитель
+
+		// Fixed header mode
+		// .header-fixed & {
+		// 	padding-top: get($header-config, height, desktop) + get($content-spacing-y, desktop);
+		// }
+	}
+}
+@include media-breakpoint-down(sm) {
+	.toolbar {
+		align-items: unset !important;
+		flex-direction: column;
+	}
+
+	.menu {
+		right: unset !important;
+	}
+
+	.page-title {
+		margin-bottom: 20px;
+	}
+
+	.actions-group-buttons {
+		justify-content: space-between;
+	}
+
+	.loginForm {
+		width: 100%;
+	}
+
+	.loginForm .card, .loginForm .w-lg-50 {
+		width: 100%;
+		margin-left: 0 !important;
+	}
+
+	.user-profile-menu {
+		transform: translate(-19px, 61px) !important;
+	}
+}
+
+// Tablet & mobile modes
+@include media-breakpoint-down(lg) {
+	// Containers
+	.container,
+	.container-xxl,
+	.container-fluid {
+		max-width: none;
+		padding: 0 get($content-spacing-x, tablet-and-mobile) !important;
+	}
+
+	// Wrapper
+	.wrapper {
+
+		// Fixed header mode
+		.header-tablet-and-mobile-fixed & {
+			padding-top: get($header-config, height, tablet-and-mobile) + get($content-spacing-y, tablet-and-mobile);
+		}
+	}
+}
