@@ -1,2 +1,5 @@
 # Cards
-Developed the front-end part of the virtual card issuance service, focused both on mass work (in arbitration, for example), and on those who need foreign cards.
+Это одно из первых приложений над которым я работал. Frontend сделан полностью мной. Проект не продержался долго на продакшене, так как компания закрылась.
+
+## Stack
+Vue3, Vuex, Boostrap, i18n, SCSS
